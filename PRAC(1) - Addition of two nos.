@@ -1,7 +1,8 @@
 #include<iostream.h>
 #include<conio.h>
 void main()
-{ int i, j, result;
+{ clrscr();
+  int i, j, result;
   cout << "Enter the first no. :";
   cin >> i;
   cout << "Enter the second no. :";
