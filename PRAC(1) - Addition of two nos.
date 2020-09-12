@@ -1,0 +1,11 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{ int i, j, result;
+  cout << "Enter the first no. :";
+  cin >> i;
+  cout << "Enter the second no. :";
+  cin >> j;
+  result = i+j;
+  cout << "The result is: " << result;
+}  
