@@ -1,0 +1,9 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{ clrscr();
+  int i; 
+  cout << "Enter the desired no. : ";
+  cin << i;
+  cout << "The entered no. is : " << i;
+}  
