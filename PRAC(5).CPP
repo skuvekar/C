@@ -1,0 +1,32 @@
+//To find largest no. among the three
+
+/* 25_SHRUTI KUVEKAR
+   SE-EXTC
+   SKILL LAB
+   PRAC(5)*/
+
+   #include<iostream.h>
+   #include<conio.h>
+
+   void main()
+  { clrscr();
+    int a, b, c;
+    cout<<"Enter three nos. of your choice:";
+    cin>>a>>b>>c;
+
+    if(a==b && b==c)
+      cout<<"All three nos. are equal.";
+
+    else if(a>b && a>c)
+	      cout<<endl<<"The largest no. is: "<<a;
+
+	 else if(b>c)
+		 cout<<endl<<"The largest no. is:"<<b;
+
+	      else
+		 cout<<endl<<"The largest no. is:"<<c;
+
+    getch();
+
+
+   }
